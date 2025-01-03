@@ -1,0 +1,387 @@
+:root {
+  --blue-color: #00abf0;
+  --dark-color: #081b29;
+  --white-color: #ededed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins','sans-serif';
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido vertical y horizontalmente */
+  padding: 0 3%;
+  filter: brightness(0.9);
+}
+
+.home-content {
+  max-width: 1300px;
+  text-align: center;
+}
+
+.home-content h1 {
+  position: relative;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+} 
+
+.home-content h1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  animation-delay: .4s;
+}
+
+.home-content h3 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+
+.home-content h3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  animation-delay: .6s;
+}
+
+.home-content p {
+  position: relative;
+  font-size: 16px;
+  margin: 20px 0 40px;
+}
+
+.home-content p::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  animation-delay: .8s;
+}
+
+.home-content h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.home-content h2 {
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+.btn-skills {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 85px; 
+}
+
+.btn-skills a {
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    width: 70px; /* Ajusta el tamaño del contenedor del icono */
+    height: 70px; /* Ajusta el tamaño del contenedor del icono */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+  }
+
+.btn-skills a i {
+  font-size: 44px;
+}
+
+.btn-skills a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.2s;
+}
+
+/* Icon colors*/
+.bxl-html5 {
+  background-color: #fff;
+  color: #e34c26;
+}
+
+.bxl-react {
+    background-color: #fff;
+    color: #2678e3;
+  }
+
+.bxl-javascript{
+    background-color: #252525;
+    color: #e0e326;
+  }  
+
+.bxl-php {
+    background-color: #fff;
+    color: #e34c26;
+  }
+  
+.bxl-css3 {
+  background-color: #fff;
+  color: #264de4;
+}
+
+.bxl-python {
+  background-color: #fff;
+  color: #306998;
+}
+
+.fa-mysql {
+  background-color: #306998;
+  color: #fff;
+}
+
+.bxl-git {
+  background-color: #fff;
+  color: #e34c26;
+}
+
+.bxgithub {
+  background-color: #fff;
+  color: #000;
+}
+
+/* HOVER ICONS */
+.bxl-html5:hover {
+  background-color: #ccc;
+  color: #e34c26;
+  transition: .5s;
+}
+
+.bxl-css3:hover {
+  background-color: #ccc;
+  color: #264de4;
+  transition: .5s;
+}
+
+.bxl-react:hover {
+  background-color: #cccccc;
+  color: #000000;
+  transition: .5s;
+}
+
+.fa-mysql:hover {
+  background-color: #306998;
+  color: #ccc;
+  transition: .5s;
+}
+
+.bxl-git:hover {
+  background-color: #ccc;
+  color: #e34c26;
+  transition: .5s;
+}
+
+.bxl-javascript:hover {
+    background-color: #474747;
+    color: #cafa1b;
+    transition: .5s;
+  }
+
+.bxl-php:hover {
+    background-color: #474747;
+    color: #7c1bfa;
+    transition: .5s;
+}  
+
+.bxgithub:hover {
+  background-color: #ccc;
+  color: #000;
+  transition: .5s;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 20px; /* Añade espacio entre los botones */
+  margin-top: 20px; /* Añade espacio superior */
+  padding: 20px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: var(--blue-color);
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.btn-box a:hover {
+  color: #00abf0;
+}
+
+.btn-box a:nth-child(2) {
+  background: transparent;
+  color: #00abf0;
+}
+
+.btn-box a:nth-child(2):hover {
+  color: #00abf0;
+}
+
+.btn-box a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .home-content h1 {
+      font-size: 36px;
+    }
+  
+    .home-content h3 {
+      font-size: 24px;
+    }
+  
+    .home-content p {
+      font-size: 14px;
+    }
+  
+    .home-content h2 {
+      font-size: 24px;
+    }
+  
+    .btn-skills {
+      gap: 40px;
+    }
+  
+    .btn-skills a {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .btn-skills a i {
+      font-size: 32px;
+    }
+  
+    .btn-box {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .btn-box a {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-content h1 {
+      font-size: 28px;
+    }
+  
+    .home-content h3 {
+      font-size: 20px;
+    }
+  
+    .home-content p {
+      font-size: 12px;
+    }
+  
+    .home-content h2 {
+      font-size: 20px;
+    }
+  
+    .btn-skills {
+      gap: 20px;
+    }
+  
+    .btn-skills a {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .btn-skills a i {
+      font-size: 24px;
+    }
+  
+    .btn-box a {
+      width: 100%;
+      max-width: 150px;
+    }
+  }
+  
+  /* KEYFRAMES ANIMATION */
+  @keyframes showRight {
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes manipActiveHover {
+    100% {
+      pointer-events: auto;
+    }
+  }

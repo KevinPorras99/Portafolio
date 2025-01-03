@@ -1,0 +1,35 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  border-top: 1px solid #333;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto; 
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  text-size-adjust: 100%;
+  color: #00f7ff;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 2px solid #00f7ff;
+  border-radius: 100px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.social-links a:hover {
+  background-color: #00f7ff;
+  color: #111;
+}
