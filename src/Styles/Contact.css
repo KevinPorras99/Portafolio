@@ -1,0 +1,21 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  

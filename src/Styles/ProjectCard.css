@@ -1,37 +1,43 @@
 .project-card {
-    background: #463f3f;
-    padding: 1.5rem;
-    border-radius: 10px;
-    text-align: center;
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .project-image {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  .project-title {
-    margin: 1rem 0 0.5rem;
-  }
-  
-  .project-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #00f7ff;
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .project-link:hover {
-    background-color: #00d1e3;
-  }
-  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 300px; /* Establece un ancho fijo */
+  margin: 0 auto; /* Centra el card horizontalmente */
+  color: #fff; /* Color del texto */
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project-content {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el contenido */
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.project-title {
+  margin: 1rem 0 0.5rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #00f7ff;
+  color: #000000;
+  border-radius: 25px;
+}
+
+.project-link:hover {
+  background-color: #02b9ca;
+  color: #000000;
+}

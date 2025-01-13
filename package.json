@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "boxicons": "^2.1.4",
     "fork-awesome": "^1.2.0",
     "react": "^18.3.1",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1",
+    "react-transition-group": "^4.4.5",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.7.1"
   },

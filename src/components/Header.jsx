@@ -1,16 +1,16 @@
 import React from 'react';
-import '../Styles/Header.css'; 
-import './Home';
+import { NavLink } from 'react-router-dom';
+import '../Styles/Header.css';
 
 const Header = () => (
   <header className="header">
     <h1>Portfolio</h1>
     <nav className="nav">
-      <a href="Home.jsx">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
+      <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
+      <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink>
+      <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About me</NavLink>
+      <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
+      <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
     </nav>
   </header>
 );

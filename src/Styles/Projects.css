@@ -1,0 +1,40 @@
+/* Projects.css */
+.projects {
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navigation-arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+
+.arrow-left, .arrow-right {
+  font-size: 3rem; /* Tamaño más grande */
+  text-decoration: none;
+  color: #ffffff;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-left {
+  left: 10px; /* Ajusta según sea necesario */
+}
+
+.arrow-right {
+  right: 10px; /* Ajusta según sea necesario */
+}
+
+.arrow-left:hover, .arrow-right:hover {
+  color: #00f7ff;
+}

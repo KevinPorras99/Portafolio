@@ -1,0 +1,158 @@
+.about {
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex: 1;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    animation: float 3s ease-in-out infinite; /* Añade la animación de flotación */
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .skill-logo-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgb(231, 237, 238);
+    border-radius: 50%;
+  }
+  
+  .skill-logo-container .CircularProgressbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circular-progressbar .CircularProgressbar-path {
+    stroke: #007bff;
+  }
+  
+  .circular-progressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+  }
+  
+  .circular-progressbar .CircularProgressbar-text {
+    fill: #ffffff; /* Cambia el color del texto a blanco */
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding-left: 2rem;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .personal-attributes blockquote {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 5px solid #007bff;
+    background-color: #818181;
+  }
+  
+  .personal-attributes {
+    text-align: center;
+  }
+  
+  .personal-attributes h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .personal-attributes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .personal-attributes li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience, .projects, .testimonials, .education, .interests {
+    margin-top: 2rem;
+  }
+  
+  .experience ul, .projects ul, .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience li, .projects li, .education li {
+    margin-bottom: 1rem;
+  }
+  
+  .testimonials blockquote {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-left: 5px solid #007bff;
+    background-color: #818181;
+  }
+  
+  .navigation-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  

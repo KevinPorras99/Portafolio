@@ -1,11 +1,12 @@
 import React from 'react';
-import '../Styles/Home.css'; 
+import { Link } from 'react-router-dom';
+import '../Styles/Home.css';
 
 const Home = () => {
   return (
     <section className="home">
       <div className="home-content">
-        <h1>Hello, I'm Kevin</h1>
+        <h1>Hello, I'm Kevin Porras</h1>
         <h3>Software Developer</h3>
         <p>A Software developer passionate about problem-solving, innovation, 
             and continuous learning. Experienced in programming languages and 
@@ -23,15 +24,16 @@ const Home = () => {
           <a href="#"><i className='bx bxl-react'></i></a>
           <a href="#"><i className='bx bxl-javascript'></i></a>
           <a href="#"><i className="bx bxl-php"></i></a>
-          
         </div>
         
         <div className="btn-box">
-          <a href="mailto:kevinporras9906@gmail.com" target="_blank" rel="noopener noreferrer">Contrátame</a>
-          <a href="https://www.linkedin.com/in/kevin-porras-3a8bab253/" target="_blank" rel="noopener noreferrer">Hablemos</a>
+          <a href="mailto:kevinporras9906@gmail.com" target="_blank" rel="noopener noreferrer">Contact me</a>
+          <a href="https://www.linkedin.com/in/kevin-porras-3a8bab253/" target="_blank" rel="noopener noreferrer">Let's talk</a>
         </div>
       </div>
-      
+      <div className="navigation-arrows">
+        <Link to="/projects" className="arrow-right">&gt;</Link>
+      </div>
     </section>
   );
 };

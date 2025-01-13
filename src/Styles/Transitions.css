@@ -1,0 +1,23 @@
+/* Transitions.css */
+.fade-enter {
+    opacity: 0;
+    transform: rotateY(90deg);
+    transform-origin: center right;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: rotateY(0);
+    transform-origin: center right;
+    transition: opacity 300ms, transform 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+    transform: rotateY(0);
+    transform-origin: center left;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transform: rotateY(-90deg);
+    transform-origin: center left;
+    transition: opacity 300ms, transform 300ms;
+  }
