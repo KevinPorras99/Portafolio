@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/Portafolio/', // Asegúrate de que esta ruta coincida con el nombre de tu repositorio
   plugins: [react()],
-})
+});
