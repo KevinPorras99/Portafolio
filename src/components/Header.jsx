@@ -4,7 +4,7 @@ import '../Styles/Header.css';
 
 const Header = () => (
   <header className="header">
-    <h1>Portfolio</h1>
+    <h1>Kevin's Portfolio</h1>
     <nav className="nav">
       <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
       <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink>

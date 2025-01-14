@@ -47,7 +47,7 @@ const About = () => (
       <div className="about-text">
         <p>
           I am a software developer with a passion for problem-solving and creating efficient solutions. 
-          I have experience in various programming languages and technologies, including:
+          I have experience in various programming languages and technologies.
         </p>
         <p>
           I enjoy working on web applications, mobile applications, and local applications. 
