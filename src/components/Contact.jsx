@@ -12,8 +12,8 @@ const Contact = () => (
       <div className="contact-card-content">
         <p><FontAwesomeIcon icon={faPhone} /> Phone: (+506)8645-7832</p>
         <p><FontAwesomeIcon icon={faEnvelope} /> Email: kevinporras9906@gmail.com</p>
-        <p><FontAwesomeIcon icon={faLinkedin} /> LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
-        <p><FontAwesomeIcon icon={faGithub} /> GitHub: <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+        <p><FontAwesomeIcon icon={faLinkedin} /> LinkedIn: <a href="https://www.linkedin.com/in/kevin-porras-3a8bab253/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+        <p><FontAwesomeIcon icon={faGithub} /> GitHub: <a href="https://github.com/KevinPorras99" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
       </div>
     </div>
     <div className="navigation-arrows">
