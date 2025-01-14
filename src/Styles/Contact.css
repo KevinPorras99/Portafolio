@@ -42,23 +42,3 @@
   text-decoration: underline;
 }
 
-.navigation-arrows {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.arrow-left {
-  font-size: 2rem;
-  color: #007bff;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border: 2px solid #007bff;
-  border-radius: 50%;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.arrow-left:hover {
-  background-color: #007bff;
-  color: #fff;
-}
