@@ -1,21 +1,64 @@
 .contact {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .contact p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .contact a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-card {
+  perspective: 1000px;
+}
+
+.contact-card-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transform: rotateY(0deg);
+  transition: transform 0.6s;
+}
+
+.contact-card:hover .contact-card-content {
+  transform: rotateY(10deg);
+}
+
+.contact-card p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.navigation-arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.arrow-left {
+  font-size: 2rem;
+  color: #007bff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.arrow-left:hover {
+  background-color: #007bff;
+  color: #fff;
+}
