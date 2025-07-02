@@ -228,6 +228,8 @@ Base stats.
 🚀 Objective:
 Deliver a smooth and visually appealing experience for Pokémon fans and developers 
 interested in learning how to consume APIs and manage data in modern React applications.
+
+Visit the Pokedex: https://kevinporras99.github.io/pokedex-react-app
     `,link:"https://kevinporras99.github.io/pokedex-react-app",demoImages:[fy,dy,py,my],button:{text:"Visit Pokedex",url:"https://kevinporras99.github.io/pokedex-react-app"}}],gy=()=>{const{id:r}=zg(),o=hy.find(a=>a.id===r);return o?E.jsxs("div",{className:"project-detail",children:[E.jsxs("div",{className:"project-images",children:[E.jsx("h3",{className:"project-title",children:o.title}),E.jsx("div",{className:"demo-images",children:o.demoImages.map((a,s)=>E.jsx("img",{src:a,alt:`Demo ${s+1}`,className:"demo-image"},s))})]}),E.jsx("div",{className:"project-content",children:E.jsx("p",{className:"project-description",children:o.description})})]}):E.jsx("div",{children:"Proyecto no encontrado"})};/*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
