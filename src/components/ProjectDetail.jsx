@@ -21,6 +21,11 @@ import demoImage14 from '../img/lakersweb/Inicio.png';
 import demoImage15 from '../img/lakersweb/Gimnacio.png';
 import demoImage16 from '../img/lakersweb/Formulario.png';
 
+import demoImage17 from '../img/pokedex/dashboard.png';
+import demoImage18 from '../img/pokedex/details.png';
+import demoImage19 from '../img/pokedex/filters.png';
+import demoImage20 from '../img/pokedex/filter-active.png';
+
 
 const projects = [
   {
@@ -183,8 +188,66 @@ This project showcases my ability to develop static yet interactive websites fro
     link: 'https://linkproyecto2.com',
     demoImages: [demoImage13, demoImage14, demoImage15, demoImage16]
   },
-  // Añade más proyectos aquí
+  {
+    id: '4',
+    title: 'Pokedex',
+    description: `
+     Project Description
+Pokédex is a web application built with React and powered by Vite, 
+designed to provide a complete and interactive experience for exploring all existing Pokémon. 
+The project fetches data from a public API PokeAPI to display detailed information about 
+every creature in the Pokémon universe.
+
+⚙️ Technologies Used:
+React: Core library for building the user interface.
+
+Vite: Build tool for fast development and optimized performance.
+
+JavaScript / JSX: Component logic and DOM management.
+
+CSS / Tailwind / Styled Components (depending on your setup): For component styling.
+
+PokeAPI: Data source for Pokémon information.
+
+Axios or Fetch: To handle HTTP requests.
+
+🎮 Features:
+✅ Display a full list of all Pokémon.
+
+🔍 Search by name or Pokédex number.
+
+🧩 Filter by type (water, fire, grass, etc.).
+
+📄 Detailed view for each Pokémon:
+
+Official image.
+
+Type(s).
+
+Abilities.
+
+Base stats.
+
+🌐 Asynchronous data loading with loading and error states.
+
+📱 Responsive design for mobile and desktop.
+
+🚀 Objective:
+Deliver a smooth and visually appealing experience for Pokémon fans and developers 
+interested in learning how to consume APIs and manage data in modern React applications.
+    `,
+    link: 'https://kevinporras99.github.io/pokedex-react-app', // Actualizado con el enlace correcto
+    demoImages: [demoImage17, demoImage18, demoImage19, demoImage20],
+    button: {
+        text: 'Visit Pokedex',
+        url: 'https://kevinporras99.github.io/pokedex-react-app'
+    }
+    
+}
+
+ 
 ];
+
 
 const ProjectDetail = () => {
   const { id } = useParams();

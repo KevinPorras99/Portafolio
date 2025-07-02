@@ -5,6 +5,7 @@ import '../Styles/Projects.css';
 import registrodocente from '../img/Registrodocente.webp';
 import muniticket from '../img/muniticket/Login.png';
 import lakerslogo from '../img/lakersweb/lakerslogo.jpg';
+import pokedex from '../img/pokedex/pokedex.png';
 
 const projects = [
   {
@@ -27,6 +28,13 @@ const projects = [
     description: 'Lakers Fan Page is a website developed in HTML5 for fans of the Los Angeles Lakers basketball team.',
     image: lakerslogo,
     link: 'https://linkproyecto3.com'
+  },
+  {
+    id: '4',
+    title: 'Pokedex',
+    description: 'Pokédex is a web application built with React and powered by Vite, designed to provide a complete and interactive experience for exploring all existing Pokémon. ',
+    image: pokedex,
+    link: 'https://linkproyecto4.com'
   },
   // Añade más proyectos aquí
 ];
