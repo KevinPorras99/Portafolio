@@ -235,6 +235,8 @@ Base stats.
 🚀 Objective:
 Deliver a smooth and visually appealing experience for Pokémon fans and developers 
 interested in learning how to consume APIs and manage data in modern React applications.
+
+Visit the Pokedex: https://kevinporras99.github.io/pokedex-react-app
     `,
     link: 'https://kevinporras99.github.io/pokedex-react-app', // Actualizado con el enlace correcto
     demoImages: [demoImage17, demoImage18, demoImage19, demoImage20],
