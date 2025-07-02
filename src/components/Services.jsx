@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Services.css';
-import webDevImage from '../img/services/webservice.jpeg';
-import localAppImage from '../img/services/localservice.jpeg';
-import mobileAppImage from '../img/services/movilservice.jpeg';
+import webDevImage from '../img/servicesimg/webservice.jpeg';
+import localAppImage from '../img/servicesimg/localservice.jpeg';
+import mobileAppImage from '../img/servicesimg/movilservice.jpeg';
 
 const services = [
     {
