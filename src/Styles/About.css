@@ -32,7 +32,7 @@
     flex-direction: column;
     align-items: center;
     width: 150px;
-    animation: float 3s ease-in-out infinite; /* Añade la animación de flotación */
+    animation: float 3s ease-in-out infinite; 
   }
   
   @keyframes float {
@@ -73,7 +73,7 @@
   }
   
   .circular-progressbar .CircularProgressbar-text {
-    fill: #ffffff; /* Cambia el color del texto a blanco */
+    fill: #ffffff; 
     font-weight: bold;
     font-size: 20px;
   }

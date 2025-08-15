@@ -9,7 +9,6 @@ import ProjectDetail from './components/ProjectDetail';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import StarryBackground from './components/StarryBackground';
 import './App.css';
 import './Styles/Transitions.css';
 
@@ -18,7 +17,6 @@ const App = () => {
 
   return (
     <div className="app">
-      <StarryBackground />
       <Header />
       <main className="main-content">
         <SwitchTransition>

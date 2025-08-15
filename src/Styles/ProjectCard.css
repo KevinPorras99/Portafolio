@@ -7,9 +7,9 @@
   text-align: center;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
-  width: 300px; /* Establece un ancho fijo */
-  margin: 0 auto; /* Centra el card horizontalmente */
-  color: #fff; /* Color del texto */
+  width: 300px; 
+  margin: 0 auto; 
+  color: #fff;
   position: relative;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .project-content {
-  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el contenido */
+  background: rgba(0, 0, 0, 0.5); 
   padding: 1rem;
   border-radius: 10px;
 }

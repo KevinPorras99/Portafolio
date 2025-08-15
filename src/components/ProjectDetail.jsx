@@ -198,7 +198,7 @@ designed to provide a complete and interactive experience for exploring all exis
 The project fetches data from a public API PokeAPI to display detailed information about 
 every creature in the Pokémon universe.
 
-⚙️ Technologies Used:
+Technologies Used:
 React: Core library for building the user interface.
 
 Vite: Build tool for fast development and optimized performance.
@@ -211,14 +211,14 @@ PokeAPI: Data source for Pokémon information.
 
 Axios or Fetch: To handle HTTP requests.
 
-🎮 Features:
-✅ Display a full list of all Pokémon.
+Features:
+Display a full list of all Pokémon.
 
-🔍 Search by name or Pokédex number.
+Search by name or Pokédex number.
 
-🧩 Filter by type (water, fire, grass, etc.).
+Filter by type (water, fire, grass, etc.).
 
-📄 Detailed view for each Pokémon:
+Detailed view for each Pokémon:
 
 Official image.
 
@@ -228,11 +228,11 @@ Abilities.
 
 Base stats.
 
-🌐 Asynchronous data loading with loading and error states.
+Asynchronous data loading with loading and error states.
 
-📱 Responsive design for mobile and desktop.
+Responsive design for mobile and desktop.
 
-🚀 Objective:
+Objective:
 Deliver a smooth and visually appealing experience for Pokémon fans and developers 
 interested in learning how to consume APIs and manage data in modern React applications.
 

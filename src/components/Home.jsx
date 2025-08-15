@@ -7,13 +7,13 @@ const Home = () => {
     <section className="home">
       <div className="home-content">
         <h1>Hello, I'm Kevin Porras</h1>
-        <h3>Software Developer</h3>
-        <p>A Software developer passionate about problem-solving, innovation, 
-            and continuous learning. Experienced in programming languages and 
-            web technologies, with a strong commitment to excellence and teamwork. 
-            My goal is to contribute to impactful IT projects, 
-            leveraging my skills in Laravel, web development, and
-         agile methodologies. I aim to grow professionally while supporting the success of the organization."</p>
+        <h3>Software Developer - FULL STACK DEVELOPER</h3>
+        <p>Full Stack Developer passionate about creating efficient, scalable, 
+          and user-friendly web applications. Skilled in Laravel, PHP, JavaScript,
+           React, and SQL databases, with experience in agile workflows, Azure DevOps, 
+           and Trello. Committed to delivering high-quality solutions, solving complex 
+           problems, and contributing to impactful IT projects while continuously 
+           growing professionally.</p>
         
         <h2>Skills</h2>
         <div className="btn-skills">

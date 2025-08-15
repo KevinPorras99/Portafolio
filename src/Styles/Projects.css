@@ -19,7 +19,7 @@
 }
 
 .arrow-left, .arrow-right {
-  font-size: 3rem; /* Tamaño más grande */
+  font-size: 3rem;
   text-decoration: none;
   color: #ffffff;
   position: fixed;
@@ -28,11 +28,11 @@
 }
 
 .arrow-left {
-  left: 10px; /* Ajusta según sea necesario */
+  left: 10px; 
 }
 
 .arrow-right {
-  right: 10px; /* Ajusta según sea necesario */
+  right: 10px; 
 }
 
 .arrow-left:hover, .arrow-right:hover {

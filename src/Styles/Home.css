@@ -1,6 +1,6 @@
 :root {
   --blue-color: #00abf0;
-  --dark-color: #081b29;
+  --dark-color: #424242;
   --white-color: #ededed;
 }
 
@@ -20,7 +20,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; /* Centra el contenido vertical y horizontalmente */
+  justify-content: center; 
   padding: 0 3%;
   filter: brightness(0.9);
 }
@@ -119,12 +119,12 @@ body {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    width: 70px; /* Ajusta el tamaño del contenedor del icono */
-    height: 70px; /* Ajusta el tamaño del contenedor del icono */
+    width: 70px; 
+    height: 70px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%; /* Hace que el contenedor sea circular */
+    border-radius: 50%; 
   }
 
 .btn-skills a i {
@@ -240,9 +240,9 @@ body {
 
 .btn-box {
   display: flex;
-  justify-content: center; /* Centra los botones horizontalmente */
-  gap: 20px; /* Añade espacio entre los botones */
-  margin-top: 20px; /* Añade espacio superior */
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 20px;
   padding: 20px;
 }
 

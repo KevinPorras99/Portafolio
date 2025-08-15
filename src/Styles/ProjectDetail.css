@@ -1,7 +1,7 @@
 /* ProjectDetail.css */
 .project-detail {
     display: flex;
-    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    min-height: 100vh; 
   }
   
   .project-images {
@@ -10,15 +10,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el contenido */
+    background: rgba(0, 0, 0, 0.7); 
     padding: 2rem;
-    margin-left: 2rem; /* Desplaza el contenedor de imágenes hacia la derecha */
+    margin-left: 2rem; 
   }
   
   .project-title {
     font-size: 2rem;
     margin: 1rem 0;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el título */
+    background: rgba(255, 255, 255, 0.5); 
     padding: 0.5rem 1rem;
     border-radius: 5px;
     color: #fff;
@@ -26,12 +26,12 @@
   
   .project-content {
     flex: 1;
-    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el contenido */
+    background: rgba(83, 83, 83, 0.7); 
     padding: 2rem;
     border-radius: 10px;
     max-width: 800px;
     width: 100%;
-    color: #fff; /* Color del texto */
+    color: #fff; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,8 +41,8 @@
   .project-description {
     font-size: 1.2rem;
     margin: 1rem 0;
-    white-space: pre-line; /* Para preservar los saltos de línea en la descripción */
-    text-align: left; /* Alineación del texto a la izquierda */
+    white-space: pre-line;
+    text-align: left; 
   }
   
   .project-link {
@@ -60,16 +60,15 @@
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 1rem;
-    margin-left: 2rem; /* Desplaza las imágenes hacia la derecha */
   }
   
   .demo-image {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    transition: transform 0.3s ease; /* Transición suave para el agrandamiento */
+    transition: transform 0.3s ease; 
   }
   
   .demo-image:hover {
-    transform: scale(1.5) translateX(20px); /* Agranda la imagen y la mueve hacia la derecha al pasar el cursor */
+    transform: scale(1.5) translateX(20px); 
   }

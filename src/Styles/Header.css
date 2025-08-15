@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #111;
-    border-bottom: 1px solid #333;
+    background-color: #0d1321;
+    border-bottom: 1px solid #0d1321;
     width: 100%;
     box-sizing: border-box;
   }
@@ -16,7 +16,7 @@
   
   .nav a {
     margin: 0 1rem;
-    text-decoration: none; /* Corrige el valor de text-decoration */
+    text-decoration: none; 
     color: #fff;
   }
   
