@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About: React.FC = () => {
@@ -12,7 +11,7 @@ const About: React.FC = () => {
         <div className="md:col-span-3 text-lg space-y-4">
           <p>
             I am a Full Stack Developer with a strong passion 
-            for building scalable, efficient, and user-friendly web 
+            for building scalable, efficient, aand user-friendly web 
             applications. I have hands-on experience in  Laravel 11, 
             PHP, JavaScript, React, SQL databases, and agile 
             development methodologies including Scrum, Trello, 
@@ -34,10 +33,10 @@ const About: React.FC = () => {
           <div className="relative">
             <img
               className="rounded-lg w-full h-auto aspect-square object-cover"
-              src="img/profileimage.jpg"
+              src={new URL('../img/profileimage.jpg', import.meta.url).href}
               alt="Kevin Porras"
             />
-             <div className="absolute inset-0 bg-primary/50 group-hover:bg-transparent transition duration-300 rounded-lg"></div>
+            <div className="absolute inset-0 bg-primary/50 group-hover:bg-transparent transition duration-300 rounded-lg"></div>
           </div>
         </div>
       </div>

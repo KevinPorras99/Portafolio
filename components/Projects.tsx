@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Project } from '../types';
 import { IconGitHub, IconExternalLink } from './icons';
@@ -8,7 +7,7 @@ const projectsData: Project[] = [
     title: 'Registro Docente',
     description: 'Registro Docente is a web application built with Laravel 11 for managing student grades in educational institutions. It features role-based authentication, interactive dashboards, and Excel import/export functionality.',
     tags: ['Laravel 11', ' HTML', 'JavaScript', 'Blade', 'Tailwind CSS', 'MySQL', 'XAMPP', 'phpMyAdmin','Git', 'GitHub'],
-    imageUrl: 'img/registrodocente.png',
+    imageUrl: 'img/RegistroDocente.png',
     liveUrl: '#',
     repoUrl: 'https://github.com/KevinPorras99/RegistroDocente',
   },
@@ -16,7 +15,7 @@ const projectsData: Project[] = [
     title: 'Muniticket',
     description: 'Muniticket is a web application developed with Laravel 11 for managing technical support tickets for the Municipality of San Isidro de Heredia. The repository is private.',
     tags: ['Laravel 11', ' HTML', 'JavaScript', 'Blade', 'Bootstrap', 'MySQL', 'XAMPP', 'phpMyAdmin', 'Git', 'GitHub'],
-    imageUrl: 'img/muniticket.png',
+    imageUrl: 'img/Muniticket.png',
     liveUrl: '#',
     repoUrl: '#',
   },
@@ -33,7 +32,11 @@ const projectsData: Project[] = [
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     <div className="bg-secondary rounded-lg shadow-lg overflow-hidden group flex flex-col transition-all duration-300 hover:shadow-accent/20">
       <div className="relative overflow-hidden">
-        <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+        <img
+          src={project.imageUrl}
+          alt={project.title}
+          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
         <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors"></div>
       </div>
       <div className="p-6 flex flex-col flex-grow">

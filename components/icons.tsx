@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const iconPath = '/img/icons/';
+const iconPath = 'img/icons/';
 
 export const IconLaravel: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
   <img src={`${iconPath}laravel.png`} alt="Laravel" className={className} />
