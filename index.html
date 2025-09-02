@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/assets/portfolio-CvYkO641.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              // Modo claro
+              'primary-light': '#3396D3',   
+              'secondary-light': '#FFF0CE', 
+              'text-light': '#EBCB90',      
+              'accent': '#EEEEEE',
+              // Modo oscuro
+              'primary-dark': '#0a192f',    
+              'secondary-dark': '#112240',  
+              'text-dark': '#ccd6f6',       
+              'accent': '#64ffda',
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+
+    <link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.1.1/",
+        "react": "https://aistudiocdn.com/react@^19.1.1",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-B2Wcn-Mm.js"></script>
+  </head>
+  <body class="bg-primary-light text-text-light font-sans dark:bg-primary-dark dark:text-text-dark">
+    <div id="root"></div>
+  </body>
+</html>
