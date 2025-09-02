@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           Kevin Porras.
         </h1>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-dark mb-8">
-          I build things for the web.
+          I build things for the web and local devices.
         </h2>
         <p className="text-lg max-w-2xl mb-8">
           I'm a software developer specializing in building (and occasionally designing)

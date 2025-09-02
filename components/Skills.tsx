@@ -4,7 +4,7 @@ import type { Skill } from '../types';
 import {
   IconTypeScript,
   IconReact,
-  IconNodeJs,
+  IconJs,
   IconTailwindCSS,
   IconPython,
   IconLaravel,
@@ -17,7 +17,7 @@ import {
 const skillsData: Skill[] = [
   { name: 'TypeScript', icon: <IconTypeScript /> },
   { name: 'React', icon: <IconReact /> },
-  { name: 'Node.js', icon: <IconNodeJs /> },
+  { name: 'JavaScript', icon: <IconJs /> },
   { name: 'Tailwind CSS', icon: <IconTailwindCSS /> },
   { name: 'Python', icon: <IconPython /> },
   { name: 'Laravel', icon: <IconLaravel /> },

@@ -1,44 +1,46 @@
 
 import React from 'react';
 
+const iconPath = '/img/icons/';
+
 export const IconLaravel: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><title>Laravel</title><g><path fill="#FF2D20" d="M128 16L16 80v96l112 64 112-64V80z"/><path fill="#fff" d="M128 32l96 56v88l-96 56-96-56V88z"/></g></svg>
+  <img src={`${iconPath}laravel.png`} alt="Laravel" className={className} />
 );
 
 export const IconHTML: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path fill="#E44D26" d="M3.5 2l1.6 18.1L12 22l6.9-1.9L20.5 2z"/><path fill="#F16529" d="M12 20.2l5.6-1.5 1.4-15.7H12z"/><path fill="#fff" d="M12 11.1h4.5l-.3 3.2-4.2 1.1v3.2l3.4-.9.2-2.2h-3.6z"/><path fill="#EBEBEB" d="M12 11.1V8.1h4.7l-.1 1.1H12z"/></svg>
+  <img src={`${iconPath}html.png`} alt="HTML" className={className} />
 );
 
 export const IconCpp: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>C++</title><rect width="48" height="48" rx="8" fill="#00599C"/><text x="12" y="32" fontSize="18" fill="#fff" fontFamily="Arial" fontWeight="bold">C++</text></svg>
+  <img src={`${iconPath}c++.png`} alt="C++" className={className} />
 );
 
 export const IconJava: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>Java</title><path fill="#007396" d="M24 4c-8 0-14 3-14 7s6 7 14 7 14-3 14-7-6-7-14-7z"/><path fill="#EA2D2E" d="M24 18c-8 0-14 3-14 7v8c0 4 6 7 14 7s14-3 14-7v-8c0-4-6-7-14-7z"/></svg>
+  <img src={`${iconPath}java.png`} alt="Java" className={className} />
 );
 
 export const IconSQL: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>SQL</title><ellipse cx="24" cy="12" rx="20" ry="8" fill="#00758F"/><rect x="4" y="12" width="40" height="24" rx="8" fill="#F29111"/><text x="12" y="32" fontSize="14" fill="#fff" fontFamily="Arial" fontWeight="bold">SQL</text></svg>
+  <img src={`${iconPath}sql.png`} alt="SQL" className={className} />
 );
 
 export const IconTypeScript: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TypeScript</title><path d="M1.5 0 h21 l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zM12 20.838l5.545-1.595L18.59 4.32H6.41l1.04 11.753h6.14V13.4H9.375l-.2-2.25h5.45V8.525h-8.4l.4 4.5h8.4v2.725h-5.4l-.4 4.625L12 20.838z" fill="#3178c6"/></svg>
+  <img src={`${iconPath}typescript_original_logo_icon_146317.png`} alt="TypeScript" className={className} />
 );
 
 export const IconReact: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} viewBox="-11.5 -10.23174 23 20.46348" xmlns="http://www.w3.org/2000/svg"><title>React</title><circle cx="0" cy="0" r="2.05" fill="#61dafb"/><g stroke="#61dafb" strokeWidth="1" fill="none"><ellipse rx="11" ry="4.2"/><ellipse rx="11" ry="4.2" transform="rotate(60)"/><ellipse rx="11" ry="4.2" transform="rotate(120)"/></g></svg>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" className={className} />
 );
 
-export const IconNodeJs: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Node.js</title><path d="M11.998 24a12.002 12.002 0 01-4.328-23.012A12.01 12.01 0 0113.882.31 12.005 12.005 0 0124 12.002a12.002 12.002 0 01-12.002 11.998zm-1.07-11.053l-2.43-1.405v2.81l4.86-2.81v-5.618l-4.86 2.808v2.81l2.43-1.405v2.81zm2.14 0l2.43-1.405v-2.81l-4.86 2.81v5.618l4.86-2.808v-2.81l-2.43 1.405v-2.81z" fill="#339933"/></svg>
+export const IconJs: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
+  <img src={`${iconPath}javascript.png`} alt="JavaScript" className={className} />
 );
 
 export const IconTailwindCSS: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8C10.94,4.8,10.08,5.17,9.4,5.86c-0.68,0.69-1.02,1.57-1.02,2.62c0,1.05,0.34,1.93,1.02,2.62 c0.68,0.69,1.54,1.03,2.6,1.03c1.06,0,1.92-0.34,2.6-1.03c0.68-0.69,1.02-1.57,1.02-2.62c0-1.05-0.34-1.93-1.02-2.62 C13.921,5.17,13.061,4.8,12.001,4.8z M12.001,13.2c-1.06,0-1.92,0.34-2.6,1.03c-0.68,0.69-1.02,1.57-1.02,2.62 c0,1.05,0.34,1.93,1.02,2.62c0.68,0.69,1.54,1.03,2.6,1.03c1.06,0,1.92-0.34,2.6-1.03c0.68-0.69,1.02-1.57,1.02-2.62 c0-1.05-0.34-1.93-1.02-2.62C13.921,13.54,13.061,13.2,12.001,13.2z" fill="#06b6d4"/></svg>
+  <img src={`${iconPath}tailwind.png`} alt="Tailwind CSS" className={className} />
 );
 
 export const IconPython: React.FC<{ className?: string }> = ({ className = "h-8 w-8" }) => (
-  <svg className={className} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Python</title><path d="M23.23,9.58,13.2,1.1a2.82,2.82,0,0,0-4.2,0L.77,9.58a2.6,2.6,0,0,0,0,4l5.3,5.3v2.54a2.7,2.7,0,0,0,2.7,2.7H11a.8.8,0,0,0,0-1.6H8.7a1.1,1.1,0,0,1-1.1-1.1V18.1L12,22.3l4.2-4.2a2.82,2.82,0,0,0,0-4.2Zm-11,8.6L3,13.2,7.3,8.9,12,13.6Zm0-12L7.8,2.3,12,6.5l8.6,8.6-4.2,4.2Z" fill="#3776ab"/><path d="M23.23,9.58,13.2,1.1a2.82,2.82,0,0,0-4.2,0L.77,9.58a2.6,2.6,0,0,0,0,4l5.3,5.3v2.54a2.7,2.7,0,0,0,2.7,2.7H11a.8.8,0,0,0,0-1.6H8.7a1.1,1.1,0,0,1-1.1-1.1V18.1L12,22.3l4.2-4.2a2.82,2.82,0,0,0,0-4.2Zm-11,8.6L3,13.2,7.3,8.9,12,13.6Zm0-12L7.8,2.3,12,6.5l8.6,8.6-4.2,4.2Z" fill="#ffde57"/></svg>
+  <img src={`${iconPath}python.png`} alt="Python" className={className} />
 );
 
 export const IconGitHub: React.FC<{ className?: string }> = ({ className = "h-6 w-6" }) => (

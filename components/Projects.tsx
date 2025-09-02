@@ -10,12 +10,12 @@ const projectsData: Project[] = [
     tags: ['Laravel 11', ' HTML', 'JavaScript', 'Blade', 'Tailwind CSS', 'MySQL', 'XAMPP', 'phpMyAdmin','Git', 'GitHub'],
     imageUrl: 'img/registrodocente.png',
     liveUrl: '#',
-    repoUrl: '#',
+    repoUrl: 'https://github.com/KevinPorras99/RegistroDocente',
   },
   {
     title: 'Muniticket',
-    description: 'Muniticket is a web application developed with Laravel 11 for managing technical support tickets for the Municipality of San Isidro de Heredia.',
-    tags: ['Laravel 11', ' HTML', 'JavaScript', 'Blade', 'Tailwind CSS', 'MySQL', 'XAMPP', 'phpMyAdmin', 'Git', 'GitHub'],
+    description: 'Muniticket is a web application developed with Laravel 11 for managing technical support tickets for the Municipality of San Isidro de Heredia. The repository is private.',
+    tags: ['Laravel 11', ' HTML', 'JavaScript', 'Blade', 'Bootstrap', 'MySQL', 'XAMPP', 'phpMyAdmin', 'Git', 'GitHub'],
     imageUrl: 'img/muniticket.png',
     liveUrl: '#',
     repoUrl: '#',
@@ -25,8 +25,8 @@ const projectsData: Project[] = [
     description: 'Pokédex is a web application built with React and powered by Vite, designed to provide a complete and interactive experience for exploring all existing Pokémon.',
     tags: ['Vite', 'React', 'JavaScript / JSX', 'Tailwind CSS', 'REST API', 'Git', 'GitHub'],
     imageUrl: 'img/pokedex.png',
-    liveUrl: '#',
-    repoUrl: '#',
+    liveUrl: 'https://kevinporras99.github.io/pokedex-react-app/',
+    repoUrl: 'https://github.com/KevinPorras99/pokedex-react-app',
   },
 ];
 
