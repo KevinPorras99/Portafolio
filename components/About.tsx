@@ -12,7 +12,7 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-5 gap-12 items-start">
         <div className="md:col-span-3 text-dark text-base leading-relaxed space-y-4">
           <p>
-            I'm a Full Stack / Backend Developer with hands-on experience building and
+            I'm a Junior Full Stack / Backend Developer with hands-on experience building and
             shipping production-ready web applications using <span className="text-accent">Laravel 11</span>,{' '}
             <span className="text-accent">PHP 8</span>, and modern JavaScript frameworks.
           </p>

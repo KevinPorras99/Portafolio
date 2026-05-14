@@ -27,6 +27,22 @@ const projectsData: Project[] = [
     liveUrl: 'https://kevinporras99.github.io/pokedex-react-app/',
     repoUrl: 'https://github.com/KevinPorras99/pokedex-react-app',
   },
+  {
+    title: 'Planet Express — Shipping Tracker',
+    description:
+      'Full-stack shipment management app inspired by the Futurama universe. Features role-based dashboards for Customer, Agent, and Admin roles, complete shipment lifecycle tracking, JWT authentication via Clerk, and an AI-powered chatbot for Futurama-themed assistance.',
+    tags: ['React 18', 'Vite', 'FastAPI', 'Python', 'PostgreSQL', 'Supabase', 'TanStack Query', 'Clerk', 'OpenAI', 'Tailwind CSS'],
+    imageUrl: 'img/PlanetExpress.png',
+    repoUrl: 'https://github.com/KevinPorras99/planet-express-kevin-porras',
+  },
+  {
+    title: 'MedControl — Medical SaaS',
+    description:
+      'Multi-tenant SaaS platform for medical practice management. Covers the full patient care cycle: scheduling, clinical records, invoicing with PDF generation, and QR-signed digital consent forms. Features role-based access (admin, doctor, receptionist), a patient portal, financial dashboards, and MedTron — a real-time AI medical assistant powered by Llama 3.3 70B via SSE streaming.',
+    tags: ['React 18', 'Vite', 'FastAPI', 'PostgreSQL', 'Supabase', 'TanStack Query', 'Clerk', 'Groq / Llama 3.3', 'Stripe', 'Tailwind CSS'],
+    imageUrl: 'img/MedControl.png',
+    repoUrl: 'https://github.com/KevinPorras99/MedControl-SaaS'
+  },
 ];
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
