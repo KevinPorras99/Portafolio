@@ -1,5 +1,4 @@
-import React from 'react';
-import '/index.css';
+import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,22 +9,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="container mx-auto px-6 md:px-12 lg:px-24 flex-grow">
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
-};
-
-export default App;
+export default function App() {
+  return <><Header /><main id="main" tabIndex={-1}><Hero /><Projects /><About /><Skills /><Experience /><Education /><Contact /></main><Footer /></>;
+}

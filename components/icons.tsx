@@ -1,7 +1,7 @@
 import React from 'react';
 
 const localIcon = (file: string, alt: string, className: string) => (
-  <img src={`img/icons/${file}`} alt={alt} className={className} />
+  <img src={`${import.meta.env.BASE_URL}img/icons/${file}`} alt={alt} className={className} width="32" height="32" loading="lazy" />
 );
 
 const deviconUrl = (path: string) =>
